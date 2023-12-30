@@ -1,0 +1,11 @@
+#productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.productThumbnail {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
